@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    padding: 5px;
+    margin: 0;
+    background-color: #437008;
+    padding-bottom: 10px;
+
+    box-shadow: 1px 1px 51px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 51px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 51px -1px rgba(0,0,0,0.75);
+}
+
+h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+
+
+
+div *{
+    display: block;
+    width: 50%;
+    height: 300px;
+    position: absolute;
+}
+
+div #guitarra, div #trompeta{
+    position: absolute;
+    display: block;
+    top: 380px;
+}
+
+div #piano, div #guitarra{
+    top: 80px;
+}
+
+
+div * button{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background-color: white;
+}
+
+div * h2{
+    margin: 10px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+section *{
+    margin-left: 15px;
+}
+
+
+
+
+
+#piano{
+    background-image: url("https://es.yamaha.com/es/files/si_WHATISTHESILENTPIANO_0b45e921a18c25e45ba18df86b4c7e43.jpg?impolicy=resize&imwid=1200&imhei=676");
+    background-size: cover;
+}
+
+#piano h2{
+    color: white;
+}
+
+#guitarra{
+    background-image: url("https://media.fanaticguitars.com/2021/01/la-mejor-guitarra-espanola-para-empezar-a-tocar.jpg");
+    background-size: cover;
+    left: 50%;
+}
+
+#bateria{
+    background-image: url("https://www.superprof.mx/blog/wp-content/uploads/2019/05/img.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 380px;
+}
+
+#bateria h2{
+    color: white;
+}
+
+#trompeta{
+    background-image: url("https://www.sanganxa.com/blog/wp-content/uploads/2021/04/Webp.net-resizeimage-1.jpg");
+    background-size: cover;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+
+#piano button{
+    top: -80px;
+}
+
+#guitarra button{
+    top: -80px;
+}
+
+#bateria button{
+    top: -80px;
+}
+
+#trompeta button{
+    top: -80px;
+}
